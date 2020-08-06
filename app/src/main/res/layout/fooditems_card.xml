@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_card_holder"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_height="75dp"
+    app:cardCornerRadius="5dp"
+    app:cardMaxElevation="1dp"
+    app:cardElevation="1dp"
+    app:contentPadding="2dp"
+    android:padding="1dp"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="false">
+    <RelativeLayout
+        android:id="@+id/card_linear_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/item_image"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <LinearLayout
+            android:id="@+id/text_holder_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="0dp"
+            android:paddingRight="16dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            >
+            <TextView
+                android:id="@+id/itemname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_chevron_right"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="18dp"
+
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "252084696597",
+    "firebase_url": "https://vishnufoodogo.firebaseio.com",
+    "project_id": "vishnufoodogo",
+    "storage_bucket": "vishnufoodogo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252084696597:android:a73ac0fa6d41b100c5c01c",
+        "android_client_info": {
+          "package_name": "com.svecw.vishnufoodogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252084696597-0k5fts5vkkep0ks197n3f699htroncf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.svecw.vishnufoodogo",
+            "certificate_hash": "45a14ec99c7e3087a5cd60c2f9ad452b817c98d6"
+          }
+        },
+        {
+          "client_id": "252084696597-aajbg3tsildif1k1e20mi3ivglqurcbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLQ8x9Ln8DqZljiO1iy6Y_G7vtOfQZdgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252084696597-aajbg3tsildif1k1e20mi3ivglqurcbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
